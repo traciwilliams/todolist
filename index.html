@@ -2,18 +2,26 @@
  <html>
  <head>
  	<title>Sample To Do</title>
- 	<link rel = "stylesheet" href = "styles/main.css">
+ 	<link rel="stylesheet" href="styles/main.css">
+ 	<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Bad+Script|Rock+Salt" rel="stylesheet">
  </head>
  <body>
-   <button>Add todo</button>
+ 	<div id="wrapper">
+	 	<header>My "To Do" List</header>
+	 	<section>
+	    <input></input><button>Add Item</button>
 
-  	<h3>To Do List</h3>
-  	<ul id="todoList"></ul>
-  
- 	 <h3>Completed</h3>
-  	 <ul id="completedList"></ul>
- 
- <script src="scripts/main.js"></script>
+
+		<ul id="todoList"><u>"To Do" List</u><br>(Click to move to Completed List)</ul>
+	  
+	
+	  	<ul id="completedList"><u>Completed List</u></ul>
+	 	</section>
+	 	<hr>
+	 	<footer>A "To Do" List created by Traci Williams</footer>
+	 <script src="scripts/main.js"></script>
+ 	</div>
  </body>
  </html>
- <input>
+
